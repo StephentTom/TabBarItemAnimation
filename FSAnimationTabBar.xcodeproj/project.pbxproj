@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B84869B11C999AA800498863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869B01C999AA800498863 /* main.m */; };
+		B84869B41C999AA800498863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869B31C999AA800498863 /* AppDelegate.m */; };
+		B84869BA1C999AA800498863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84869B81C999AA800498863 /* Main.storyboard */; };
+		B84869BC1C999AA800498863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84869BB1C999AA800498863 /* Assets.xcassets */; };
+		B84869BF1C999AA800498863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84869BD1C999AA800498863 /* LaunchScreen.storyboard */; };
+		B84869CA1C999AA900498863 /* FSAnimationTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869C91C999AA900498863 /* FSAnimationTabBarTests.m */; };
+		B84869D51C999AA900498863 /* FSAnimationTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869D41C999AA900498863 /* FSAnimationTabBarUITests.m */; };
+		B84869EA1C999DD600498863 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869E91C999DD600498863 /* FSNavigationController.m */; };
+		B84869ED1C999E4900498863 /* FSAnimationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869EC1C999E4900498863 /* FSAnimationTabBarController.m */; };
+		B84869F21C999EF800498863 /* FSAnimationTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869F11C999EF800498863 /* FSAnimationTabBarItem.m */; };
+		B84869F91C99A07D00498863 /* FSBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869F81C99A07D00498863 /* FSBaseAnimation.m */; };
+		B84869FD1C99A0AE00498863 /* FSBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869FC1C99A0AE00498863 /* FSBounceAnimation.m */; };
+		B8486A001C99A0F000498863 /* FSMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84869FF1C99A0F000498863 /* FSMainTabBarController.m */; };
+		B8486A031C99BD3C00498863 /* FSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8486A021C99BD3C00498863 /* FSBaseViewController.m */; };
+		B8486A061C99BD5800498863 /* FSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8486A051C99BD5800498863 /* FSHomeViewController.m */; };
+		B8486A091C99BD8F00498863 /* FSSupermarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8486A081C99BD8F00498863 /* FSSupermarketViewController.m */; };
+		B8486A0C1C99BDB900498863 /* FSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8486A0B1C99BDB900498863 /* FSMineViewController.m */; };
+		B856850C1C9B92A800F9548D /* FSTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B856850B1C9B92A800F9548D /* FSTabBarItemModel.m */; };
+		B856850F1C9BDAE200F9548D /* FSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B856850E1C9BDAE200F9548D /* FSTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B84869C61C999AA900498863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84869A41C999AA800498863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84869AB1C999AA800498863;
+			remoteInfo = FSAnimationTabBar;
+		};
+		B84869D11C999AA900498863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84869A41C999AA800498863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84869AB1C999AA800498863;
+			remoteInfo = FSAnimationTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B84869AC1C999AA800498863 /* FSAnimationTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSAnimationTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84869B01C999AA800498863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B84869B21C999AA800498863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B84869B31C999AA800498863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B84869B91C999AA800498863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B84869BB1C999AA800498863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B84869BE1C999AA800498863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B84869C01C999AA800498863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84869C51C999AA900498863 /* FSAnimationTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSAnimationTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84869C91C999AA900498863 /* FSAnimationTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAnimationTabBarTests.m; sourceTree = "<group>"; };
+		B84869CB1C999AA900498863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84869D01C999AA900498863 /* FSAnimationTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSAnimationTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84869D41C999AA900498863 /* FSAnimationTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAnimationTabBarUITests.m; sourceTree = "<group>"; };
+		B84869D61C999AA900498863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84869E81C999DD600498863 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
+		B84869E91C999DD600498863 /* FSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
+		B84869EB1C999E4900498863 /* FSAnimationTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAnimationTabBarController.h; sourceTree = "<group>"; };
+		B84869EC1C999E4900498863 /* FSAnimationTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAnimationTabBarController.m; sourceTree = "<group>"; };
+		B84869F01C999EF800498863 /* FSAnimationTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAnimationTabBarItem.h; sourceTree = "<group>"; };
+		B84869F11C999EF800498863 /* FSAnimationTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAnimationTabBarItem.m; sourceTree = "<group>"; };
+		B84869F71C99A07D00498863 /* FSBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseAnimation.h; sourceTree = "<group>"; };
+		B84869F81C99A07D00498863 /* FSBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseAnimation.m; sourceTree = "<group>"; };
+		B84869FB1C99A0AE00498863 /* FSBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBounceAnimation.h; sourceTree = "<group>"; };
+		B84869FC1C99A0AE00498863 /* FSBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBounceAnimation.m; sourceTree = "<group>"; };
+		B84869FE1C99A0F000498863 /* FSMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMainTabBarController.h; sourceTree = "<group>"; };
+		B84869FF1C99A0F000498863 /* FSMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainTabBarController.m; sourceTree = "<group>"; };
+		B8486A011C99BD3C00498863 /* FSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseViewController.h; sourceTree = "<group>"; };
+		B8486A021C99BD3C00498863 /* FSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseViewController.m; sourceTree = "<group>"; };
+		B8486A041C99BD5800498863 /* FSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeViewController.h; sourceTree = "<group>"; };
+		B8486A051C99BD5800498863 /* FSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHomeViewController.m; sourceTree = "<group>"; };
+		B8486A071C99BD8F00498863 /* FSSupermarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSupermarketViewController.h; sourceTree = "<group>"; };
+		B8486A081C99BD8F00498863 /* FSSupermarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSupermarketViewController.m; sourceTree = "<group>"; };
+		B8486A0A1C99BDB900498863 /* FSMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMineViewController.h; sourceTree = "<group>"; };
+		B8486A0B1C99BDB900498863 /* FSMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMineViewController.m; sourceTree = "<group>"; };
+		B856850A1C9B92A800F9548D /* FSTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTabBarItemModel.h; sourceTree = "<group>"; };
+		B856850B1C9B92A800F9548D /* FSTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTabBarItemModel.m; sourceTree = "<group>"; };
+		B856850D1C9BDAE200F9548D /* FSTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTestViewController.h; sourceTree = "<group>"; };
+		B856850E1C9BDAE200F9548D /* FSTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84869A91C999AA800498863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869C21C999AA900498863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869CD1C999AA900498863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B84869A31C999AA800498863 = {
+			isa = PBXGroup;
+			children = (
+				B84869AE1C999AA800498863 /* FSAnimationTabBar */,
+				B84869C81C999AA900498863 /* FSAnimationTabBarTests */,
+				B84869D31C999AA900498863 /* FSAnimationTabBarUITests */,
+				B84869AD1C999AA800498863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B84869AD1C999AA800498863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84869AC1C999AA800498863 /* FSAnimationTabBar.app */,
+				B84869C51C999AA900498863 /* FSAnimationTabBarTests.xctest */,
+				B84869D01C999AA900498863 /* FSAnimationTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84869AE1C999AA800498863 /* FSAnimationTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B84869E41C999B7400498863 /* FSAnimatedTabBarController */,
+				B84869E21C999AEC00498863 /* Other */,
+				B84869B21C999AA800498863 /* AppDelegate.h */,
+				B84869B31C999AA800498863 /* AppDelegate.m */,
+				B8486A011C99BD3C00498863 /* FSBaseViewController.h */,
+				B8486A021C99BD3C00498863 /* FSBaseViewController.m */,
+				B8486A041C99BD5800498863 /* FSHomeViewController.h */,
+				B8486A051C99BD5800498863 /* FSHomeViewController.m */,
+				B84869FE1C99A0F000498863 /* FSMainTabBarController.h */,
+				B84869FF1C99A0F000498863 /* FSMainTabBarController.m */,
+				B8486A0A1C99BDB900498863 /* FSMineViewController.h */,
+				B8486A0B1C99BDB900498863 /* FSMineViewController.m */,
+				B84869E81C999DD600498863 /* FSNavigationController.h */,
+				B84869E91C999DD600498863 /* FSNavigationController.m */,
+				B8486A071C99BD8F00498863 /* FSSupermarketViewController.h */,
+				B8486A081C99BD8F00498863 /* FSSupermarketViewController.m */,
+				B856850D1C9BDAE200F9548D /* FSTestViewController.h */,
+				B856850E1C9BDAE200F9548D /* FSTestViewController.m */,
+			);
+			path = FSAnimationTabBar;
+			sourceTree = "<group>";
+		};
+		B84869AF1C999AA800498863 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84869B01C999AA800498863 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B84869C81C999AA900498863 /* FSAnimationTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B84869C91C999AA900498863 /* FSAnimationTabBarTests.m */,
+				B84869CB1C999AA900498863 /* Info.plist */,
+			);
+			path = FSAnimationTabBarTests;
+			sourceTree = "<group>";
+		};
+		B84869D31C999AA900498863 /* FSAnimationTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B84869D41C999AA900498863 /* FSAnimationTabBarUITests.m */,
+				B84869D61C999AA900498863 /* Info.plist */,
+			);
+			path = FSAnimationTabBarUITests;
+			sourceTree = "<group>";
+		};
+		B84869E21C999AEC00498863 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B84869E31C999B0200498863 /* Storyboard */,
+				B84869AF1C999AA800498863 /* Supporting Files */,
+				B84869BB1C999AA800498863 /* Assets.xcassets */,
+				B84869C01C999AA800498863 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B84869E31C999B0200498863 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B84869BD1C999AA800498863 /* LaunchScreen.storyboard */,
+				B84869B81C999AA800498863 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B84869E41C999B7400498863 /* FSAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B84869EF1C999E6000498863 /* Animatios */,
+				B85685101C9BDBA500F9548D /* BaseTabBarController */,
+				B84869EE1C999E5800498863 /* Model */,
+				B84869F31C999FE800498863 /* TabBarItem */,
+			);
+			path = FSAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		B84869EE1C999E5800498863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B856850A1C9B92A800F9548D /* FSTabBarItemModel.h */,
+				B856850B1C9B92A800F9548D /* FSTabBarItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B84869EF1C999E6000498863 /* Animatios */ = {
+			isa = PBXGroup;
+			children = (
+				B84869FA1C99A08700498863 /* BounceAnimation */,
+				B84869F71C99A07D00498863 /* FSBaseAnimation.h */,
+				B84869F81C99A07D00498863 /* FSBaseAnimation.m */,
+			);
+			path = Animatios;
+			sourceTree = "<group>";
+		};
+		B84869F31C999FE800498863 /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				B84869F01C999EF800498863 /* FSAnimationTabBarItem.h */,
+				B84869F11C999EF800498863 /* FSAnimationTabBarItem.m */,
+			);
+			path = TabBarItem;
+			sourceTree = "<group>";
+		};
+		B84869FA1C99A08700498863 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B84869FB1C99A0AE00498863 /* FSBounceAnimation.h */,
+				B84869FC1C99A0AE00498863 /* FSBounceAnimation.m */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		B85685101C9BDBA500F9548D /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B84869EB1C999E4900498863 /* FSAnimationTabBarController.h */,
+				B84869EC1C999E4900498863 /* FSAnimationTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84869AB1C999AA800498863 /* FSAnimationTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84869D91C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBar" */;
+			buildPhases = (
+				B84869A81C999AA800498863 /* Sources */,
+				B84869A91C999AA800498863 /* Frameworks */,
+				B84869AA1C999AA800498863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSAnimationTabBar;
+			productName = FSAnimationTabBar;
+			productReference = B84869AC1C999AA800498863 /* FSAnimationTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B84869C41C999AA900498863 /* FSAnimationTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84869DC1C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBarTests" */;
+			buildPhases = (
+				B84869C11C999AA900498863 /* Sources */,
+				B84869C21C999AA900498863 /* Frameworks */,
+				B84869C31C999AA900498863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84869C71C999AA900498863 /* PBXTargetDependency */,
+			);
+			name = FSAnimationTabBarTests;
+			productName = FSAnimationTabBarTests;
+			productReference = B84869C51C999AA900498863 /* FSAnimationTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B84869CF1C999AA900498863 /* FSAnimationTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84869DF1C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBarUITests" */;
+			buildPhases = (
+				B84869CC1C999AA900498863 /* Sources */,
+				B84869CD1C999AA900498863 /* Frameworks */,
+				B84869CE1C999AA900498863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84869D21C999AA900498863 /* PBXTargetDependency */,
+			);
+			name = FSAnimationTabBarUITests;
+			productName = FSAnimationTabBarUITests;
+			productReference = B84869D01C999AA900498863 /* FSAnimationTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84869A41C999AA800498863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = __Company__;
+				TargetAttributes = {
+					B84869AB1C999AA800498863 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B84869C41C999AA900498863 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B84869AB1C999AA800498863;
+					};
+					B84869CF1C999AA900498863 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B84869AB1C999AA800498863;
+					};
+				};
+			};
+			buildConfigurationList = B84869A71C999AA800498863 /* Build configuration list for PBXProject "FSAnimationTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B84869A31C999AA800498863;
+			productRefGroup = B84869AD1C999AA800498863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84869AB1C999AA800498863 /* FSAnimationTabBar */,
+				B84869C41C999AA900498863 /* FSAnimationTabBarTests */,
+				B84869CF1C999AA900498863 /* FSAnimationTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84869AA1C999AA800498863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84869BF1C999AA800498863 /* LaunchScreen.storyboard in Resources */,
+				B84869BC1C999AA800498863 /* Assets.xcassets in Resources */,
+				B84869BA1C999AA800498863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869C31C999AA900498863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869CE1C999AA900498863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84869A81C999AA800498863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8486A091C99BD8F00498863 /* FSSupermarketViewController.m in Sources */,
+				B84869F91C99A07D00498863 /* FSBaseAnimation.m in Sources */,
+				B8486A001C99A0F000498863 /* FSMainTabBarController.m in Sources */,
+				B84869B41C999AA800498863 /* AppDelegate.m in Sources */,
+				B84869ED1C999E4900498863 /* FSAnimationTabBarController.m in Sources */,
+				B8486A061C99BD5800498863 /* FSHomeViewController.m in Sources */,
+				B8486A0C1C99BDB900498863 /* FSMineViewController.m in Sources */,
+				B856850C1C9B92A800F9548D /* FSTabBarItemModel.m in Sources */,
+				B84869B11C999AA800498863 /* main.m in Sources */,
+				B84869FD1C99A0AE00498863 /* FSBounceAnimation.m in Sources */,
+				B84869EA1C999DD600498863 /* FSNavigationController.m in Sources */,
+				B8486A031C99BD3C00498863 /* FSBaseViewController.m in Sources */,
+				B84869F21C999EF800498863 /* FSAnimationTabBarItem.m in Sources */,
+				B856850F1C9BDAE200F9548D /* FSTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869C11C999AA900498863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84869CA1C999AA900498863 /* FSAnimationTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84869CC1C999AA900498863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84869D51C999AA900498863 /* FSAnimationTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84869C71C999AA900498863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84869AB1C999AA800498863 /* FSAnimationTabBar */;
+			targetProxy = B84869C61C999AA900498863 /* PBXContainerItemProxy */;
+		};
+		B84869D21C999AA900498863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84869AB1C999AA800498863 /* FSAnimationTabBar */;
+			targetProxy = B84869D11C999AA900498863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B84869B81C999AA800498863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84869B91C999AA800498863 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		B84869BD1C999AA800498863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84869BE1C999AA800498863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84869D71C999AA900498863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B84869D81C999AA900498863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84869DA1C999AA900498863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSAnimationTabBar/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B84869DB1C999AA900498863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSAnimationTabBar/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B84869DD1C999AA900498863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSAnimationTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSAnimationTabBar.app/FSAnimationTabBar";
+			};
+			name = Debug;
+		};
+		B84869DE1C999AA900498863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSAnimationTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSAnimationTabBar.app/FSAnimationTabBar";
+			};
+			name = Release;
+		};
+		B84869E01C999AA900498863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSAnimationTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSAnimationTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B84869E11C999AA900498863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSAnimationTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Hong.FSAnimationTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSAnimationTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84869A71C999AA800498863 /* Build configuration list for PBXProject "FSAnimationTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84869D71C999AA900498863 /* Debug */,
+				B84869D81C999AA900498863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84869D91C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84869DA1C999AA900498863 /* Debug */,
+				B84869DB1C999AA900498863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84869DC1C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84869DD1C999AA900498863 /* Debug */,
+				B84869DE1C999AA900498863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84869DF1C999AA900498863 /* Build configuration list for PBXNativeTarget "FSAnimationTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84869E01C999AA900498863 /* Debug */,
+				B84869E11C999AA900498863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84869A41C999AA800498863 /* Project object */;
+}
